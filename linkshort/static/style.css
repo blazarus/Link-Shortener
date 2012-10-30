@@ -1,0 +1,73 @@
+h1 {
+	text-align:center;
+}
+input .login {
+    color:#CCC;
+}
+#loginButton, #signupButton {
+    color:#000000;
+}
+#loginContainer, #signupContainer {
+	padding-left:40px;
+}
+.error {
+	font-weight:bold;
+}
+html, body {
+	height:100%;
+}
+body {
+	position:relative;
+}
+#container {
+	width:700px;
+	margin:0 auto;
+	color:#000000;
+}
+#customizeForm {
+	display:none;
+}
+.originalLink {
+	display:table-cell;
+	width:35%;
+}
+.shortLinkDisplay {
+	display:table-cell;
+	width:40%;
+}
+.linkAnalytics {
+	display:table-cell;
+	width:25%;
+	text-align:center;
+}
+#userUrlList {
+	display:table;
+	width:100%;
+}
+#tableHeaders {
+	display:table;
+	width:100%;
+	font-size:20px;
+	margin-top:30px;
+}
+.createdLinkContainer {
+	display:table-row;
+}
+#enterURLContainer {
+	text-align:center;
+	margin-bottom:15px;
+}
+#customizeContainer {
+	text-align:center;
+	margin-top:5px;
+}
+#customizeButton {
+	margin-left:20px;
+}
+#messagesContainer {
+	text-align:center;
+	color:#FF0000;
+}
+#badRedirectContainer {
+	text-align:center;
+}

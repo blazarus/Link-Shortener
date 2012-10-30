@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+
+{% block body %}
+  	<div id="badRedirectContainer">
+		<h2 id="badRedirectMessage">Sorry, this link does not exist</h2>
+		<a id-"backHomeLink" href="{{ url_for('index') }}">Back to home page</a>
+	</div>
+{% endblock %}

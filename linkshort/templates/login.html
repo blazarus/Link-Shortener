@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+{% block head %}
+{{ super() }}
+<script type="text/javascript" src="static/login.js"></script>
+{% endblock %}
+
+{% block body %}
+  <div id="loginContainer">
+  	{% if error %}
+	    <p class=error>Error: {{ error }}</p>
+	{% endif %}
+	<h2>Login</h2>
+		Username:
+		<input type="text" class="login" id="usernameInput" class="textInput" name="usernameInput" value="Username" /><br />
+		Password:
+		<input type="password" class="login" id="passwordInput" class="textInput" name="passwordInput" value="password" /><br />
+	    <p><input type="button" id="loginButton" value="Login" /></p>
+	</div>
+	<div id="signupContainer">
+		<h2>Signup</h2>
+		Username:
+		<input type="text" class="login" id="newUsernameInput" class="textInput" name="usernameInput" value="Username" /><br />
+		Password:
+		<input type="password" class="login" id="newPasswordInput" class="textInput" name="passwordInput" value="password" /><br />
+	    <p><input type="button" id="signupButton" value="Signup" /></p>
+	</div>
+{% endblock %}
